@@ -20,7 +20,7 @@ body{
     max-height: 600px ;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
 position: relative ;
 }
