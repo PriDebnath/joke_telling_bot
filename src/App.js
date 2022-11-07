@@ -55,13 +55,12 @@ let App = () => {
   }
 
   useEffect(() => {
-   
-      getJoke();
+    getJoke();
 
     // eslint-disable-next-line
   }, []);
 
-  console.log("'won't work on all browser")
+  console.log("'won't work on all browser");
   return (
     <div className="bot_container relative">
       <div className="joke">
@@ -69,8 +68,8 @@ let App = () => {
         <h3 className={show}> {joke.delivery}</h3>
       </div>
 
-      <button className="" onClick={jokeExist ? showAns : getJoke}>
-        {jokeExist ? "show" : "New joke"}
+      <button className="font-bold" onClick={jokeExist ? showAns : getJoke}>
+        {jokeExist ? "Show" : "New joke"}
       </button>
       <select
         className="block m-auto absolute left-0  top-0 right-0"
