@@ -1,2 +1,2 @@
 ### hoisted link
-### https://joketellingbotbypritam.netlify.app/
+### https://joketellingbotbypri.netlify.app/
